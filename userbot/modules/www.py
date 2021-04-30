@@ -47,14 +47,14 @@ async def pingme(pong):
     await get_readable_time((time.time() - StartTime))
     start = datetime.now()
     await pong.edit("**★ xᴛᴀᴀ ★**")
-    await pong.edit("**★✫ •𝕰͢𝖝ͥ𝖙𝖆ͣ𝖆ͫ༆ ★✫**")
-    await pong.edit("**★✫★ taa ★✫★**")
-    await pong.edit("**★✫★✫ 𝖝𝖙𝖆𝖆 ★✫★✫**")
+    await pong.edit("**★✫ ꜰᴏᴜɴᴅᴛᴀᴀ ★✫**")
+    await pong.edit("**★✫★ Ping ★✫★**")
+    await pong.edit("**★✫★✫ Pong ★✫★✫**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**❅ 𝖝𝖙𝖆𝖆•𝖕𝖒 ** "
+    await pong.edit(f"**❅ xᴛᴀᴀɴᴊᴋɴᴛʟ♆ ** "
                     f"\n  ➥ `%sms` \n"
-                    f"**❅ ₄₀₄ 𝖊𝖗𝖗𝖔𝖗, 𝖍𝖆𝖕𝖕𝖎𝖓𝖊𝖘𝖘 𝖓𝖔𝖙 𝖋𝖔𝖚𝖓𝖉 ** "
+                    f"**❅ ₄₀₄ 𝖊𝖗𝖗𝖔𝖗,𝖓𝖔𝖙 𝖋𝖔𝖚𝖓𝖉〄 ** "
                     f"\n  ➥ `{ALIVE_NAME}` \n" % (duration))
 
 
@@ -148,10 +148,10 @@ async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("`GABUT YA LU?..............`")
+    await pong.edit("`Apa Sih KNTL?..............`")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"** Adududuh tod!!! **\n**KEGABUTAN :** %sms\n**Bot Uptime  :** {uptime} ⏱" % (duration))
+    await pong.edit(f"** Halah Ngentod!!! **\n**Air Mani :** %sms\n**Bot Uptime  :** {uptime} ⏱" % (duration))
 
 
 @register(outgoing=True, pattern="^.pong$")
